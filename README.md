@@ -1,152 +1,152 @@
 # 🛩️ ZeepFly ACARS Client
 
-## 📋 Sobre o Sistema
+## 📋 About the System
 
-O **ZeepFly ACARS Client** é um aplicativo desktop desenvolvido para pilotos de simuladores de voo que desejam integrar suas sessões de voo com sistemas ZeepFly para companhias aéreas virtuais (VA - Virtual Airlines). O sistema oferece uma experiência completa de ACARS (Aircraft Communications Addressing and Reporting System) diretamente integrado ao Microsoft Flight Simulator.
+The **ZeepFly ACARS Client** is a desktop application developed for flight simulator pilots who want to integrate their flight sessions with ZeepFly systems for virtual airlines (VA - Virtual Airlines). The system provides a complete ACARS (Aircraft Communications Addressing and Reporting System) experience directly integrated with Microsoft Flight Simulator.
 
-## ✈️ Funcionalidades Principais
+## ✈️ Main Features
 
-### 🎯 **Plano de Voo**
-- **Integração com ZeepFly Pilot System**: Importação automática de planos de voo ativo
-- **Tracking em Tempo Real**: Monitoramento de posição, altitude, velocidade e status dos motores
-- **Detecção Automática**: Início e fim de voo detectados automaticamente
-- **Status de Voo**: Controle de status (agendado, em progresso, concluído)
+### 🎯 **Flight Plan**
+- **ZeepFly Pilot System Integration**: Automatic import of active flight plans
+- **Real-Time Tracking**: Monitoring of position, altitude, speed, and engine status
+- **Automatic Detection**: Flight start and end automatically detected
+- **Flight Status**: Control of status (scheduled, in progress, completed)
 
-### 🌤️ **Informações Meteorológicas**
-- **METAR em Tempo Real**: Dados meteorológicos atualizados
-- **Múltiplos Aeroportos**: Consulta de condições em diferentes aeroportos
-- **Interface Intuitiva**: Visualização clara das condições meteorológicas
+### 🌤️ **Weather Information**
+- **Real-Time METAR**: Updated meteorological data
+- **Multiple Airports**: Query conditions at different airports
+- **Intuitive Interface**: Clear visualization of meteorological conditions
 
 ### 📊 **Logbook**
-- **Histórico Completo**: Registro de todos os voos realizados
-- **Estatísticas Detalhadas**: Tempo de voo, distância, aeronaves utilizadas
-- **Exportação**: Possibilidade de exportar dados para análise
+- **Complete History**: Record of all flights performed
+- **Detailed Statistics**: Flight time, distance, aircraft used
+- **Export**: Ability to export data for analysis
 
-### ⚙️ **Configurações**
-- **Personalização**: Configurações de interface e comportamento
-- **Preferências de Usuário**: Salvar configurações personalizadas
+### ⚙️ **Settings**
+- **Customization**: Interface and behavior settings
+- **User Preferences**: Save personalized settings
 
-## 🖥️ Requisitos do Sistema
+## 🖥️ System Requirements
 
-### **Sistema Operacional**
+### **Operating System**
 - **Windows**: Windows 10/11 (64-bit)
 
-### **Simulador**
-- **Microsoft Flight Simulator 2020** (versão 1.24.2 ou superior)
+### **Simulator**
+- **Microsoft Flight Simulator 2020** (version 1.24.2 or higher)
 
-### **Hardware Mínimo**
-- **Processador**: Intel i5 ou AMD equivalente
-- **Memória**: 8GB RAM
-- **Armazenamento**: 250MB de espaço livre
-- **Rede**: Conexão com internet para sincronização
+### **Minimum Hardware**
+- **Processor**: Intel i5 or AMD equivalent
+- **Memory**: 8GB RAM
+- **Storage**: 250MB free space
+- **Network**: Internet connection for synchronization
 
-## 📦 Download e Instalação
+## 📦 Download and Installation
 
 ### **Windows**
-1. Baixe o arquivo `ZeepFly-ACARS-Setup.exe` da seção de releases
-2. Execute o instalador como administrador
-3. Siga as instruções do assistente de instalação
-4. O aplicativo será instalado automaticamente
+1. Download the `ZeepFly-ACARS-Setup.exe` file from the releases section
+2. Run the installer as administrator
+3. Follow the installation wizard instructions
+4. The application will be installed automatically
 
-### **Versão Portable (Windows)**
-- Baixe o arquivo `ZeepFly-ACARS-Portable.exe`
-- Execute diretamente sem instalação
-- Ideal para uso em múltiplas máquinas
+### **Portable Version (Windows)**
+- Download the `ZeepFly-ACARS-Portable.exe` file
+- Run directly without installation
+- Ideal for use on multiple machines
 
-## 🚀 Primeiro Uso
+## 🚀 First Use
 
-### **1. Configuração Inicial**
-- Execute o aplicativo pela primeira vez
-- Faça login com suas credenciais da companhia aérea virtual
-- Configure as preferências básicas
+### **1. Initial Setup**
+- Run the application for the first time
+- Login with your virtual airline credentials
+- Configure basic preferences
 
-### **2. Integração com MSFS**
-- Certifique-se de que o Microsoft Flight Simulator está em execução
-- O ACARS se conectará automaticamente via SimConnect
-- Verifique se a conexão está ativa na interface
+### **2. MSFS Integration**
+- Make sure Microsoft Flight Simulator is running
+- ACARS will connect automatically via SimConnect
+- Check if the connection is active in the interface
 
-### **3. Primeiro Voo**
-- Importe um plano de voo do SimBrief no ZeepFly Pilot System ou crie manualmente (Para voo de Helicóptero)
-- Inicie o voo no simulador
-- O sistema detectará automaticamente o início do voo
-- Acompanhe o progresso em tempo real
+### **3. First Flight**
+- Import a flight plan from SimBrief in the ZeepFly Pilot System or create manually (for helicopter flights)
+- Start the flight in the simulator
+- The system will automatically detect the start of the flight
+- Monitor progress in real time
 
-## 🐛 Solução de Problemas
+## 🐛 Troubleshooting
 
-### **Problema**: Aplicativo não inicia
-**Solução**:
-- Verifique se o .NET Framework está instalado (Windows)
-- Execute como administrador
-- Verifique os logs em `%APPDATA%/ZeepFly-ACARS/logs/`
+### **Problem**: Application doesn't start
+**Solution**:
+- Check if .NET Framework is installed (Windows)
+- Run as administrator
+- Check logs in `%APPDATA%/ZeepFly-ACARS/logs/`
 
-### **Problema**: Não conecta com o MSFS
-**Solução**:
-- Certifique-se de que o MSFS está em execução
-- Verifique se o SimConnect está ativo
-- Reinicie o aplicativo
-- Verifique as configurações de firewall
+### **Problem**: Doesn't connect with MSFS
+**Solution**:
+- Make sure MSFS is running
+- Check if SimConnect is active
+- Restart the application
+- Check firewall settings
 
-### **Problema**: Dados não sincronizam
-**Solução**:
-- Verifique a conexão com a internet
-- Confirme se as credenciais estão corretas
-- Verifique se a API está acessível
-- Tente fazer logout e login novamente
+### **Problem**: Data doesn't sync
+**Solution**:
+- Check internet connection
+- Confirm credentials are correct
+- Check if API is accessible
+- Try logging out and logging in again
 
-## 📞 Suporte
+## 📞 Support
 
-### **Canais de Suporte**
-- **GitHub Issues**: [Repositório Principal](https://github.com/zeepfly/zeep-fly-acars)
-- **Discord**: [Servidor da comunidade AeroNav Sim](https://discord.gg/T8mFfs9FFy)
+### **Support Channels**
+- **GitHub Issues**: [Main Repository](https://github.com/zeepfly/zeep-fly-acars)
+- **Discord**: [AeroNav Sim Community Server](https://discord.gg/T8mFfs9FFy)
 - **Email**: support@zeepfly.com
 
-### **Documentação**
-- **Manual do Usuário**: Disponível na documentação oficial
-- **Tutoriais**: [Vídeos e guias no canal oficial](https://www.youtube.com/@AeroNavSim)
+### **Documentation**
+- **User Manual**: Available in official documentation
+- **Tutorials**: [Videos and guides on official channel](https://www.youtube.com/@AeroNavSim)
 
-## 🔄 Atualizações
+## 🔄 Updates
 
-### **Atualizações Automáticas**
-- O aplicativo verifica atualizações automaticamente
-- Notificações de novas versões
-- Download e instalação automática (configurável)
+### **Automatic Updates**
+- The application checks for updates automatically
+- Notifications of new versions
+- Automatic download and installation (configurable)
 
-### **Versões Suportadas**
-- **Versão Atual**: 1.0.0
-- **Versão Mínima**: 0.9.0
-- **Suporte**: Tempo indeterminado
+### **Supported Versions**
+- **Current Version**: 1.0.0
+- **Minimum Version**: 0.9.0
+- **Support**: Indefinite time
 
-## 📄 Licença
+## 📄 License
 
-Este software é distribuído sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+This software is distributed under the MIT license. See the [LICENSE](LICENSE) file for more details.
 
 ## 📈 Roadmap
 
-### **Próximas Funcionalidades**
-- [ ] **Radar em Tempo Real**: Visualização de outros voos
-- [ ] **Notificações Push**: Alertas e notificações
-- [ ] **Integração com Discord**: Compartilhamento de voos
-- [ ] **Relatórios Avançados**: Análises detalhadas de performance
-- [ ] **Suporte a Múltiplos Simuladores**: Prepar3D, X-Plane
+### **Upcoming Features**
+- [ ] **Real-Time Radar**: Visualization of other flights
+- [ ] **Push Notifications**: Alerts and notifications
+- [ ] **Discord Integration**: Flight sharing
+- [ ] **Advanced Reports**: Detailed performance analysis
+- [ ] **Multi-Simulator Support**: Prepar3D, X-Plane
 
-### **Melhorias Planejadas**
-- [ ] **Interface Dark/Light**: Temas personalizáveis
-- [ ] **Plugins**: Sistema de plugins para extensibilidade
+### **Planned Improvements**
+- [ ] **Dark/Light Interface**: Customizable themes
+- [ ] **Plugins**: Plugin system for extensibility
 
 ---
 
-## 🏢 Sobre a ZeepFly
+## 🏢 About ZeepFly
 
-A **ZeepFly** é uma empresa especializada em soluções para simuladores de voo, focada em criar sistemas que aproximam a experiência virtual da realidade da aviação comercial.
+**ZeepFly** is a company specialized in flight simulator solutions, focused on creating systems that bring the virtual experience closer to commercial aviation reality.
 
-### **Nossa Missão**
-Proporcionar aos pilotos virtuais ferramentas profissionais que elevem a experiência de simulação de voo, conectando comunidades e facilitando a gestão de companhias aéreas virtuais.
+### **Our Mission**
+To provide virtual pilots with professional tools that elevate the flight simulation experience, connecting communities and facilitating virtual airline management.
 
-### **Contato**
+### **Contact**
 - **Website**: [zeepfly.com](https://zeepfly.com)
 - **Email**: contactus@zeepfly.com
-- **Discord**: [Comunidade AeroNav Sim](https://discord.gg/T8mFfs9FFy)
+- **Discord**: [AeroNav Sim Community](https://discord.gg/T8mFfs9FFy)
 
 ---
 
-*Desenvolvido com ❤️ pela equipe ZeepFly*
+*Developed with ❤️ by the ZeepFly team* 
